@@ -8,7 +8,7 @@
 Add this to your `Cargo.toml`:
 ```toml
 [dependencies]
-rand = "0.8.0"
+rlnk = "0.1.5"
 ```
 ## example code
 ```
