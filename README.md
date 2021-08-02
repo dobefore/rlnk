@@ -1,8 +1,11 @@
 # rlnk
 a Wrapper for  [Shortcut.exe](https://api.256file.com/shortcut.exe/en-download-62728.html) by Optimum X.
+
 used to create Windows shortcuts(lnk files).
 Ispired by [A Node.js API for shortcut.exe](https://github.com/j201/windows-shortcuts)
-#example
+
+# example
+
 ```
 use rlnk::ShellLink;
 let target=r"C:\Users\Admin\Desktop\new aa\qiuqiu.exe";
