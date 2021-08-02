@@ -1,11 +1,16 @@
 # rlnk
-a Wrapper for  [Shortcut.exe](https://api.256file.com/shortcut.exe/en-download-62728.html) by Optimum X.
+[![API](https://docs.rs/rlnk/badge.svg)](https://docs.rs/rand)
+- a Wrapper for  [Shortcut.exe](https://api.256file.com/shortcut.exe/en-download-62728.html) by Optimum X.
+- used to create Windows shortcuts(lnk files).
+- Ispired by [A Node.js API for shortcut.exe](https://github.com/j201/windows-shortcuts)
+## Usage
 
-used to create Windows shortcuts(lnk files).
-Ispired by [A Node.js API for shortcut.exe](https://github.com/j201/windows-shortcuts)
-
-# example
-
+Add this to your `Cargo.toml`:
+```toml
+[dependencies]
+rand = "0.8.0"
+```
+## example code
 ```
 use rlnk::ShellLink;
 let target=r"C:\Users\Admin\Desktop\new aa\qiuqiu.exe";
