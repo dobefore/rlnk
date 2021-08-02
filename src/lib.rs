@@ -9,6 +9,7 @@ pub struct ShellLink {
 
 impl ShellLink {
     /// create an instance of struct ShellLink,same as default()
+    #[cfg(windows)]
     pub fn new() -> Self {
         ShellLink::default()
     }
@@ -18,6 +19,7 @@ impl ShellLink {
     /// let target=r"C:\Users\Admin\Desktop\new aa\qiuqiu.exe";
     /// sl.set_target(target);
     ///```
+    #[cfg(windows)]
     pub fn set_target<P: AsRef<str>>(&mut self, file_path: P) {
         self.target = file_path.as_ref().to_owned();
         let working_dir = Path::new(file_path.as_ref())
@@ -37,6 +39,7 @@ impl ShellLink {
     ///     sl.set_target(target);
     /// sl.create_lnk(lnk);
     /// ```
+    #[cfg(windows)]
     pub fn create_lnk<P: AsRef<str>>(&self, lnk_path: P) {
         let shortcut_exe_path = write_exe_to_temp().unwrap();
         let tgt = format!("/t:\"{}\"", self.target);
