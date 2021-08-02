@@ -1,5 +1,5 @@
 # rlnk
-[![API](https://docs.rs/rlnk/badge.svg)](https://docs.rs/rand)
+[![API](https://docs.rs/rlnk/badge.svg)](https://docs.rs/rlnk)
 - a Wrapper for  [Shortcut.exe](https://api.256file.com/shortcut.exe/en-download-62728.html) by Optimum X.
 - used to create Windows shortcuts(lnk files).
 - Ispired by [A Node.js API for shortcut.exe](https://github.com/j201/windows-shortcuts)
