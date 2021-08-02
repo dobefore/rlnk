@@ -1,6 +1,6 @@
 [package]
 name = "rlnk"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2018"
 description="create windows lnk file"
 license = "MIT OR Apache-2.0"
