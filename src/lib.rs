@@ -1,4 +1,12 @@
 use std::{fs, io::Result, path::Path, process::Command};
+/// field link_path ,target are required ,include two manin method
+/// # example
+/// ```
+/// let mut sl=ShellLink::new();
+/// //set target and link_path
+/// ...
+/// sl.create_lnk();
+/// ```
 #[derive(Debug, Default)]
 pub struct ShellLink {
     link_path: String,
