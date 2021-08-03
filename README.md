@@ -1,4 +1,5 @@
 # rlnk
+[![crates.io](https://img.shields.io/crates/v/rlnk.svg)](https://crates.io/crates/rlnk)
 [![API](https://docs.rs/rlnk/badge.svg)](https://docs.rs/rlnk)
 - a Wrapper for  [Shortcut.exe](https://api.256file.com/shortcut.exe/en-download-62728.html) by Optimum X.
 - used to create Windows shortcuts(lnk files).
