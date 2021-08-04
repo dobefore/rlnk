@@ -9,7 +9,7 @@
 Add this to your `Cargo.toml`:
 ```toml
 [dependencies]
-rlnk = "0.1.5"
+rlnk = "0.1.7"
 ```
 ## example code
 ```
@@ -17,8 +17,7 @@ use rlnk::ShellLink;
 let target=r"C:\Users\Admin\Desktop\new aa\qiuqiu.exe";
 let lnk=r"C:\Users\Admin\Desktop\qiuqiu.lnk";
 let mut sl=ShellLink::new();
-sl.set_target(target);
-sl.create_lnk(lnk); 
+sl.create_lnk(target,lnk); 
 ```
 
 # How it works

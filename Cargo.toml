@@ -1,6 +1,6 @@
 [package]
 name = "rlnk"
-version = "0.1.6"
+version = "0.1.7"
 edition = "2018"
 description="create windows shortcuts (lnk files)"
 license = "MIT OR Apache-2.0"
